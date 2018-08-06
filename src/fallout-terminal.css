@@ -1,0 +1,91 @@
+html {
+  background: url(/src/terminal-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    opacity: 0.3;
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: lightgreen;
+    box-shadow: -2px 2px 6px black;
+}
+
+body {
+  background-color: transparent;
+  padding: 20px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 1px 1px 4px black;
+  color: lightgreen;
+}
+
+header {
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#console-header {
+  display: block;
+  text-align: left;
+  position: relative;
+  top: 1em;
+}
+
+main {
+  display: block;
+  text-align: left;
+  margin: 0 auto;
+  height: 70vh;
+  width: 90vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  caret-color: lightgreen;
+}
+main > p {
+  display: block;
+  margin: 3px 0;
+  white-space: pre;
+}
+
+main > p:nth-child(even) {
+  color: limegreen;
+}
+
+main span {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+}
+
+.hl1 {
+  color: mediumorchid;
+}
+.hl2 {
+  color: deepskyblue;
+}
+.hl3{
+  color: gold;
+}
+.hl4{
+  color: tomato;
+}
+
+.blink {
+  animation: blink 1.2s step-end forwards infinite;
+}
+@keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
