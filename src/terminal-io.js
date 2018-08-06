@@ -275,11 +275,11 @@ window.addEventListener("keydown", function(event){
           var output = "TERMINAL FUNCTIONS:";
           let nl = "<br>       "
           output = output
-            + nl + ":out <span class='hl1'>[exp]</span>         -- Prints the value of an <span class='hl1'>expression</span> to the console."
-            + nl + ":set <span class='hl2'>[var]</span> = <span class='hl1'>[exp]</span> -- Sets a <span class='hl2'>variable</span> equal to the <span class='hl1'>expression</span> value."
-            + nl + ":var <span class='hl4'>(reset)</span>       -- Displays <span class='hl4'>(or resets)</span> all local variables."
-            + nl + ":run <span class='hl3'>[path]</span>        -- Runs a javascript file (.js) at the given file <span class='hl3'>path</span>."
-            + nl + ":clear             -- Clears all terminal lines.";
+            + nl + ":out <span class='hl1'>exp</span>     -- Prints the value of an <span class='hl1'>expression</span> to the console."
+            + nl + ":set <span class='hl2'>var</span> = <span class='hl1'>exp</span> -- Sets a <span class='hl2'>variable</span> equal to the <span class='hl1'>expression</span> value. Call the variable with %<span class='hl2'>var</span>%"
+            + nl + ":var <span class='hl4'>(reset)</span>   -- Displays <span class='hl4'>(or resets)</span> all local variables."
+            + nl + ":run <span class='hl3'>path</span>    -- Runs a javascript file (.js) at the given file <span class='hl3'>path</span>."
+            + nl + ":clear         -- Clears all terminal lines.";
           terminal(output);
         }
         //(AX) if no recognizable function is entered
