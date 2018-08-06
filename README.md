@@ -1,9 +1,9 @@
 # Fallout Terminal
 A simple terminal, styled like Bethesda's Fallout consoles.
 
-Run javascript code directly in the console or from external files, do simple math, or simply type. Commands must be preceded by a colon and local variables must be surrounded by the modulo when called.
+Run javascript code directly in the console or from external files, do simple math, or simply type. Terminal commands must be preceded by a colon and local variables must be surrounded by the modulo when called.
 
-### Terminal Functions
+### Terminal Commands
 * :out exp        -- Prints the value of an expression to the console.
 * :set var = exp  -- Sets a variable equal to the expression value. Call the variable in an expression with %var%.
 * :var (reset)    -- Displays (or resets) all local variables.
