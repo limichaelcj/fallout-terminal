@@ -1,11 +1,3 @@
-html {
-  background: url(/src/terminal-bg.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  overflow: hidden;
-}
-
 ::-webkit-scrollbar {
     opacity: 0.3;
     width: 6px;
@@ -16,7 +8,11 @@ html {
 }
 
 body {
-  background-color: transparent;
+  background: url(/src/terminal-bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
   padding: 20px;
   font-family: "Share Tech Mono", monospace;
   font-size: 18px;
