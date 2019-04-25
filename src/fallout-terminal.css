@@ -3,12 +3,15 @@
     width: 6px;
 }
 ::-webkit-scrollbar-thumb {
-    background: lightgreen;
+    background-color: lightgreen;
     box-shadow: -2px 2px 6px black;
+}
+::-webkit-scrollbar-track-piece {
+  background: transparent;
 }
 
 body {
-  background-image: url('/src/terminal-bg.jpg');
+  background-image: url('terminal-bg.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
