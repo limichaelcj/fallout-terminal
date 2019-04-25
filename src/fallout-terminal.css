@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url(/src/terminal-bg.jpg);
+  background-image: url('/src/terminal-bg.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
