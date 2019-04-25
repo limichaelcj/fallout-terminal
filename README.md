@@ -12,5 +12,4 @@ Run javascript code directly in the console or from external files, do simple ma
 
 Note: Local variables can store basic variables and arrays, but not objects or functions.
 
-### Author's note
-This app is mainly aesthetic, and very primitive. It is merely a fun practice project for myself as I learn web development. Feel free to add new features if you like the design!
+__*NOTE*__: This app is mainly aesthetic, and very primitive. It is merely a fun practice project for myself as I learn web development. Feel free to add new features if you like the design!
